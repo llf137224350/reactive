@@ -1,0 +1,16 @@
+miniprogram
+/miniprogram/*
+/miniprogram_dist/pages/*
+/miniprogram_dist/app.d.ts
+/miniprogram_dist/app.js
+.*
+sitemap.json
+tsconfig.json
+tslint.json
+project.config.json
+project.private.config.json
+typings
+node_modules
+yarn.lock
+yarn-error.log
+gulpfile.js

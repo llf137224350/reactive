@@ -1,0 +1,18 @@
+<view class="container">
+    <view class="todo-list-title">{{options.title}}</view>
+    <view class="input-container">
+        <input class="input" placeholder="请输入待办" bindinput="handleInput" value="{{inputStr}}" />
+        <button type="primary" class="btn" bindtap="handleAdd">添加</button>
+    </view>
+    <view class="todo-list" wx:for="{{todoList}}" wx:key="id">
+        <view class="todo-item">
+            <view class="title {{item.finished ? 'finished' : ''}}">{{item.title}}</view>
+            <checkbox-group bindchange="handleFinished" data-index="{{index}}">
+                <checkbox checked="{{item.finished}}" class="checkbox" />
+            </checkbox-group>
+            <icon type="clear" data-index="{{index}}" bindtap="handleDelete" />
+        </view>
+    </view>
+
+    <button type="primary" class="toggle" bindtap="handleToggleTitle">点击切换title</button>
+</view>

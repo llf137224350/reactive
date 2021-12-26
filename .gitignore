@@ -1,0 +1,10 @@
+node_modules
+.idea
+.vscode
+project.private.config.json
+.DS_Store
+*/.DS_Store
+miniprogram/**/*.js
+yarn.lock
+yarn-error.log
+miniprogram_dist

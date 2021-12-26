@@ -1,0 +1,56 @@
+page {
+  text-align: center;
+  padding: 24rpx 30rpx;
+  box-sizing: border-box;
+}
+
+.todo-list-title {
+  font-size: 50rpx;
+  font-weight: bold;
+}
+
+.input-container {
+  margin-top: 60rpx;
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+}
+
+.input {
+  text-align: left;
+  margin-right: 20rpx;
+  flex: 1;
+  height: 80rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.btn {
+  flex: 0 0 200rpx;
+  width: 200rpx;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.title {
+  text-align: left;
+  flex: 1;
+}
+
+.finished {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.checkbox {
+  margin: 0 10rpx;
+  transform: scale(0.75);
+}
+
+.toggle {
+  margin-top: 100rpx;
+}
