@@ -1,5 +1,5 @@
-import { reactive, initReactive } from 'wx-react';
-// import { reactive, initReactive } from '../../core/index';
+// import { reactive, initReactive } from 'wx-react';
+import { reactive, initReactive } from '../../core/index';
 /*
  * @Author: い 狂奔的蜗牛
  * @Date: 2021-12-26 13:58:16

@@ -1,4 +1,4 @@
-# reactive响应式更改数据刷新界面
+# wx-react响应式更改数据刷新界面
 
 > ​	微信小程序提供获取data数据的方式和修改数据的方式分别为this.data.x和this.setData({})，无论是获取数据或者修改数据都显得较为繁琐，且如果x为一个对象或者数据，只修改其值页面不会自动刷新，需要调用this.setData({x: new x})更改数据，刷新界面。所以开发了reactive这个比较小的库来进行数据的响应式处理，使访问和修改值的开发效率更高（同时修改多个属性值建议使用this.setData()方法）
 
@@ -54,7 +54,7 @@
 ### TS/JS逻辑
 
 ```javascript
-import { reactive, initReactive } from 'reactive';
+import { reactive, initReactive } from 'wx-react';
 /*
  * @Author: い 狂奔的蜗牛
  * @Date: 2021-12-26 13:58:16
@@ -116,9 +116,7 @@ Page({
 
 ### 效果图
 
-
-
-![img](https://cdn.nlark.com/yuque/0/2021/png/8429782/1640500402852-249589fe-c1c6-4258-a837-c10499c117b0.png)
+![img](https://cdn.nlark.com/yuque/0/2021/png/8429782/1640502148597-1163f255-e325-46ea-ab91-76ada97a539c.png)
 
 [GitHub项目地址](https://github.com/llf137224350/reactive)
 

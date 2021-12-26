@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "rootDirs": ["./miniprogram"],
-    "outDir": "miniprogram_dist", // 编译发布时所用，输出目录
-    "declaration": true, // 编译发布时所用，生成.d.ts文件
+    // "outDir": "miniprogram_dist", // 编译发布时所用，输出目录
+    // "declaration": true, // 编译发布时所用，生成.d.ts文件
     "strictNullChecks": true,
     "noImplicitAny": true,
     "module": "CommonJS",
