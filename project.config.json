@@ -6,7 +6,7 @@
     "miniprogramRoot": "miniprogram/",
     "compileType": "miniprogram",
     "libVersion": "2.10.4",
-    "projectname": "reactive",
+    "projectname": "wx-react",
     "scripts": {
         "beforeCompile": "npm run tsc",
         "beforePreview": "npm run tsc",

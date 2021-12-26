@@ -1,5 +1,5 @@
 {
-  "name": "mini-core",
+  "name": "wx-react",
   "miniprogram": "miniprogram",
   "version": "1.0.0",
   "description": "微信小程序框架",
@@ -11,22 +11,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/llf137224350/mini-core.git"
+    "url": "git+https://github.com/llf137224350/reactive.git"
   },
   "keywords": [
     "微信小程序",
-    "TypeScript"
+    "TypeScript",
+    "reactive",
+    "响应式"
   ],
   "author": "い 狂奔的蜗牛",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/llf137224350/mini-core/issues"
+    "url": "https://github.com/llf137224350/reactive/issues"
   },
-  "homepage": "https://github.com/llf137224350/mini-core#readme",
+  "homepage": "https://github.com/llf137224350/reactive#readme",
   "devDependencies": {
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "typescript": "^4.5.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "wx-react": "^1.0.0"
   }
 }

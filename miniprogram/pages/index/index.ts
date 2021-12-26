@@ -1,4 +1,5 @@
-import { reactive, initReactive } from '../../core/index';
+import { reactive, initReactive } from 'wx-react';
+// import { reactive, initReactive } from '../../core/index';
 /*
  * @Author: い 狂奔的蜗牛
  * @Date: 2021-12-26 13:58:16
@@ -21,8 +22,6 @@ Page({
     // 将todoList转为响应式
     this.todoList = reactive<TodoItem[]>(this, [{ id: Date.now(), title: 'い 狂奔的蜗牛', finished: false }]);
     this.options = reactive<{ title: string }>(this, { title: 'TodoList' });
-
-    setTimeout(() => {});
   },
   // 输入事件
   handleInput(e: any) {
@@ -33,7 +32,7 @@ Page({
     if (!this.inputStr) {
       return;
     }
-    this.data.todoList.push({ id: Date.now(), title: this.data.inputStr, finished: false });
+    this.todoList.push({ id: Date.now(), title: this.data.inputStr, finished: false });
     this.inputStr = '';
   },
   // 删除待办
